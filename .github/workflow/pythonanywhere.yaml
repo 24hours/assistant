@@ -6,7 +6,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
       - name: Re-Deploy Pythonanywhere Django API
         uses: umuttopalak/pythonanywhere-deploy-action@v1.0.0
         with:
